@@ -11,7 +11,7 @@ pipeline {
             echo 'Testing...'
             echo 'Synk Stage'
             synkSecurity(
-                synkInstallation: 'synk@latest'
+                synkInstallation: 'synk@latest',
                 synkTokenId: '95ee304c-8980-46e1-aac5-3bd06c945f09'
             )
         }
